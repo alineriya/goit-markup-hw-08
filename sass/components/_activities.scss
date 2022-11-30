@@ -1,3 +1,7 @@
+.activ {
+  @extend %section;
+}
+
 .activities {
     display: flex;
     gap: var(--indent);
