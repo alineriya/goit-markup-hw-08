@@ -1,7 +1,11 @@
 .clients {
+  @extend %section;
+
+  &__list {
     display: flex;
     justify-content: center;
     gap: 30px;
+  }
     
   &__item {
     width: 170px;

@@ -1,10 +1,9 @@
-.features-section {
-    padding-bottom: 0;
-  }
-  
 .features {
+    @include section(94px, 0);
+      
+  &__list {
     display: flex;
-
+  }
   
   &__picture {
     display: flex;

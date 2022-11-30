@@ -1,11 +1,10 @@
-.activ {
-  @extend %section;
-}
-
 .activities {
+  @extend %section;
+
+  &__list {
     display: flex;
     gap: var(--indent);
-  
+  }
   
   &__item {
     position: relative;

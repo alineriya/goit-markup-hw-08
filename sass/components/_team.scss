@@ -1,11 +1,13 @@
-.team-section {
-    background-color: var(--button-bgc);
-  }
-  
 .team {
+    @extend %section;
+    background-color: var(--button-bgc);
+  
+  
+  &__list {
     display: flex;
     flex-wrap: wrap;
     gap: var(--indent);
+  }
       
   &__item {
     background-color: var(--primary-bgc);
