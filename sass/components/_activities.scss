@@ -1,0 +1,34 @@
+.activities {
+    display: flex;
+    gap: var(--indent);
+  
+  
+  &__item {
+    position: relative;
+  }
+  
+  &__overlay {
+    position: absolute;
+    bottom: 0;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+    width: 100%;
+    height: 70px;
+  
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+  
+  &__overlay-text {
+    text-align: center;
+    text-transform: uppercase;
+  
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+  }
+}

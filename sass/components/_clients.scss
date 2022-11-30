@@ -1,0 +1,34 @@
+.clients {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+  &__item {
+    width: 170px;
+    height: 92px;
+  }
+  
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--socials-color);
+    border-radius: 4px;
+    background-color: var(--primary-bgc);
+    color: var(--socials-color);
+  
+    transition: color var(--anim-fast) border-color var(--anim-fast);
+    
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    }
+  }
+  
+  &__icon {
+    fill: currentColor;
+  }
+}

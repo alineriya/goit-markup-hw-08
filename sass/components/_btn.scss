@@ -1,0 +1,39 @@
+.button {
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    
+    padding: 10px auto;
+  
+    text-align: center;
+    border: transparent;
+    border-radius: 4px;
+  
+    color: var(--primary-bgc);
+    background-color: var(--accent-color);
+  
+    &--primary {
+        display: block;
+        margin: 0 auto;
+    
+        min-width: 216px;
+        min-height: 50px;
+    }
+
+    &--subscribe {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    
+        min-width: 200px;
+        height: 50px;
+    }
+  
+    &__icon {
+        fill: currentColor;
+    }
+}
