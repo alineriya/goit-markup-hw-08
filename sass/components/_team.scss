@@ -3,11 +3,20 @@
     background-color: var(--button-bgc);
   
   
-  // &__list {
+  &__list {
+    --items: 1;
+
+    @media screen and (min-width: 768px) {
+      --items: 2;
+    }
+
+    @media screen and (min-width: 1200px) {
+      --items: 4;
+    }
   //   display: flex;
   //   flex-wrap: wrap;
   //   gap: var(--indent);
-  // }
+  }
       
   &__item {
     background-color: var(--primary-bgc);
