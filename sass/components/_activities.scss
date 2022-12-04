@@ -1,5 +1,11 @@
 .activities {
-  @extend %section;
+  
+  @media screen and (max-width: 1199.98px) {
+  display: none;
+  }
+
+  @media screen and (min-width: 1200px) {
+  @include section(0, 94px);
 
   &__list {
     display: flex;
@@ -34,4 +40,5 @@
     font-size: 14px;
     line-height: calc(16/14);
   }
+}
 }
