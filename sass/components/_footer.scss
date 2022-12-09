@@ -36,10 +36,6 @@
     padding-top: 60px;
     padding-bottom: 60px;
 
-    @media screen and (min-width: 1200px) {
-        
-    }
-
     &__logo {
         display: flex;
         justify-content: center;
@@ -64,15 +60,15 @@
 
     
 
-    &__main {
+    // &__main {
 
-        // margin-right: 70px;
-        // justify-content: center;
+    //     // margin-right: 70px;
+    //     // justify-content: center;
 
-    //     @media screen and (min-width: 1200px) {
-    //        margin-right: auto;
-    //     }
-    }
+    // //     @media screen and (min-width: 1200px) {
+    // //        margin-right: auto;
+    // //     }
+    // }
   
   
     &__address {
@@ -121,9 +117,6 @@
         color: var(--primary-bgc);
         justify-content: center;
 
-        // @media screen and (min-width: 768px) {
-        //     display: block;
-        // }
         @media screen and (min-width: 1200px) {
             justify-content: flex-start;
         }
