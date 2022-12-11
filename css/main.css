@@ -433,7 +433,7 @@ ul {
 }
 
 .hero-title {
-  width: 360px;
+  width: 100%;
   margin: 0 auto 30px;
   color: var(--primary-bgc);
   font-weight: 900;
@@ -442,6 +442,11 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+@media screen and (min-width: 480px) {
+  .hero-title {
+    width: 360px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .hero-title {
