@@ -493,7 +493,7 @@ ul {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-@media screen and (min-width: 480 px), (max-width: 768px) {
+@media screen and (min-width: 480px), (max-width: 768px) {
   .features__title {
     text-align: center;
   }
