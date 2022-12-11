@@ -433,7 +433,7 @@ ul {
 }
 
 .hero-title {
-  max-width: 360px;
+  width: 360px;
   margin: 0 auto 30px;
   color: var(--primary-bgc);
   font-weight: 900;
